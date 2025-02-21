@@ -1,0 +1,3 @@
+# Elixir Enum.each List Modification Bug
+
+This example demonstrates a common mistake when using `Enum.each` in Elixir to modify a list. Directly modifying the list within the `Enum.each` function does not change the original list.  The `List.delete` function creates a new list, but the original list remains unchanged. This repository provides a demonstration of this error and a solution using a different approach.
